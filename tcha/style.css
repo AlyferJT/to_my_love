@@ -79,3 +79,12 @@ html{
         background-color: rgb(255, 56, 56);
     }
 }
+
+@media (max-width: 569px)  {
+    html {
+        font-size: 0.2rem;
+    }
+    .header_text {
+        flex-direction: column;
+    }
+}
